@@ -38,7 +38,7 @@ Thumbs.db
 #  Project-specific folders
 # ==========================
 checkpoints/
-result/
+#result/
 #input/
 demo/
 # output/
