@@ -1,0 +1,84 @@
+# ==========================
+#  Python general
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+.Python
+env/
+venv/
+ENV/
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# ==========================
+#  Jupyter Notebooks
+# ==========================
+*.ipynb_checkpoints
+.ipynb_checkpoints/
+*.ipynb~
+*.nbconvert.ipynb
+
+# ==========================
+#  Virtual environments & configs
+# ==========================
+.env
+.conda/
+*.yaml
+*.yml
+*.json
+
+# ==========================
+#  Project-specific folders
+# ==========================
+checkpoints/
+result/
+#input/
+demo/
+# output/
+logs/
+runs/
+tmp/
+cache/
+data/
+*.pth
+*.pt
+*.tar
+*.zip
+*.h5
+*.pkl
+
+# ==========================
+#  macOS & IDEs
+# ==========================
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ==========================
+#  System / Build
+# ==========================
+build/
+dist/
+*.bak
+*.tmp
+*.log
+*.out
+*.err
+
+# ==========================
+#  Custom exclusions
+# ==========================
+# keep README and requirements
+!README.md
+!requirements.txt
+!environment.yaml
+!LICENSE
